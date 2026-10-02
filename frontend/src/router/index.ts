@@ -21,6 +21,8 @@ const Electricbill = () => import('@/views/electricbill/index.vue')
 const Demolition = () => import('@/views/demolition/index.vue')
 const Emergency = () => import('@/views/emergency/index.vue')
 const Energyeff = () => import('@/views/energyeff/index.vue')
+const Cutover = () => import('@/views/cutover/index.vue')
+const Neledger = () => import('@/views/neledger/index.vue')
 
 const router = createRouter({
   history: createWebHistory(),
@@ -46,6 +48,8 @@ const router = createRouter({
     { path: '/demolition', name: 'demolition', component: Demolition },
     { path: '/emergency', name: 'emergency', component: Emergency },
     { path: '/energyeff', name: 'energyeff', component: Energyeff },
+    { path: '/cutover', name: 'cutover', component: Cutover },
+    { path: '/neledger', name: 'neledger', component: Neledger },
   ],
 })
 
